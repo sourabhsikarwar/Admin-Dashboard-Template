@@ -1,0 +1,51 @@
+.widgetSm { 
+    flex : 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    margin-right : 20px;
+}
+.wsTitle { 
+    font-size: 24px;
+    font-weight: 600;
+}
+.wsImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.wsList { 
+    margin : 0;
+    padding: 0;
+    list-style: none;
+}
+.wsListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin : 20px 0;
+}
+.wsUser {
+    display: flex;
+    flex-direction: column;
+}
+.wsUsername {
+    font-weight: 600;
+}
+.wsUserTitle {
+    font-weight: 300;
+}
+.wsButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 14px;
+    background: #eeeef7;
+    cursor: pointer;
+    color: #555;
+}
+.wsIcon {
+    margin-right : 5px;
+    font-size: 16px !important;
+}

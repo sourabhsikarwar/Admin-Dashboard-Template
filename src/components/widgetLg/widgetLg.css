@@ -1,0 +1,48 @@
+.widgetLg { 
+    flex : 2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.wlTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+.wlImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.wlButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.wlButton.Approved {
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+.wlButton.Declined {
+    background-color: #fff0f1;
+    color: #d95087;
+}
+.wlButton.Pending {
+    background-color: #ebf1fe;
+    color: #2a7ade;
+}
+.wlTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+.wlTh {
+    text-align: start;
+}
+.wlUser {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.wlDate, .wlAmount {
+    font-weight: 300;
+}

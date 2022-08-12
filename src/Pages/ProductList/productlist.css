@@ -1,0 +1,27 @@
+.productList {
+    flex : 4;
+}
+.plItem{
+    display: flex;
+    align-items: center;
+}
+.plImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.plEdit {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.plDelete {
+    color: rgb(210, 0, 0);
+    cursor: pointer;
+}

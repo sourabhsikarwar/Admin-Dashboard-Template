@@ -51,7 +51,7 @@ const ProductList = () => {
       renderCell: (params) => {
         return (
           <>
-            <Link to={"/produce/" + params.row.id}>
+            <Link to={"/product/" + params.row.id}>
               <button className="plEdit">Edit</button>
             </Link>
             <DeleteOutline
